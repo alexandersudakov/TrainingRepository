@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<root>
+	<Level LevelLocalSeed="6133" format_version="20210705">
+		<ChipSet>
+			<chip number="0" probability="36" />
+			<chip number="1" probability="54" />
+			<chip number="2" probability="80" />
+			<chip number="3" probability="80" />
+			<chip number="4" probability="100" />
+			<chip number="5" probability="81" />
+		</ChipSet>
+		<Meta match3_additional="true" />
+		<CollectChip1 CollectChipColor1="19" CollectChipCount1="4" />
+		<CollectChip2 CollectChipColor2="65" CollectChipCount2="3" DefaultMode="true" />
+		<JellyfishOptions born_moves_count="1" re_born_moves_count="1" max_on_field="3" squid_level_target="4" />
+		<Line>
+			<Cell exists="true" isBornPoint="true" color="33" exploidType="1" />
+			<Cell />
+			<Cell exists="true" color="33" exploidType="1" />
+			<Cell />
+			<Cell />
+		</Line>
+		<Line>
+			<Cell />
+			<Cell />
+			<Cell />
+			<Cell />
+			<Cell />
+		</Line>
+		<Line>
+			<Cell exists="true" color="0" />
+			<Cell />
+			<Cell exists="true" color="0" />
+			<Cell />
+			<Cell exists="true" color="0" />
+		</Line>
+		<Line>
+			<Cell exists="true" starlet_lvl="2" starlet_color="0" />
+			<Cell />
+			<Cell exists="true" starlet_lvl="2" starlet_color="0" />
+			<Cell />
+			<Cell exists="true" climber_color="0" climber_born_point="false" climber_plus="true" />
+		</Line>
+		<Line>
+			<Cell exists="true" color="1" />
+			<Cell />
+			<Cell exists="true" color="1" />
+			<Cell />
+			<Cell exists="true" color="1" />
+		</Line>
+		<Line>
+			<Cell exists="true" climber_color="0" climber_born_point="true" climber_plus="false" color="17" />
+			<Cell />
+			<Cell exists="true" climber_color="0" climber_born_point="true" climber_plus="true" />
+			<Cell />
+			<Cell exists="true" starlet_lvl="2" starlet_color="0" />
+		</Line>
+	</Level>
+</root>
